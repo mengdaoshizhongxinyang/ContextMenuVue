@@ -59,8 +59,7 @@ export default {
       this.$emit("menuItemClick", menu);
     },
   },
-  render(h) {
-    h()
+  render() {
     let  {show,menus,offset,handleSetPosition,handleClick}=this
     const on = {
       mousedown: (event) => {

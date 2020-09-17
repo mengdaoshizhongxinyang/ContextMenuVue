@@ -1,12 +1,13 @@
 module.exports = {
   presets: [
-    '@vue/app',
     [
-      '@babel/preset-env',
+      "@vue/app",
       {
-        'useBuiltIns': 'entry'
+        useBuiltIns: "entry",
+        jsx: {
+          injectH: false
+        }
       }
     ]
-    
   ]
-}
+};
