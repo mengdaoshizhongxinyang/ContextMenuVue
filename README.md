@@ -1,13 +1,18 @@
-Vue Contextmenu
-====
+# Contextmenu Vue
 contextmenu developed by vue
 
-install
---
+# install
+```
+yarn add contextmenu-vue
+```
+or
+```
+npm install contextmenu-vue
+```
 
 
-usage
---
+# usage
+
 
 ``` html
 <template>
