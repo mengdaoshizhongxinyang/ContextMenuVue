@@ -17,7 +17,7 @@ npm install contextmenu-vue-next
 ``` html
 <template>
   <div style="width:800px;height:800px" @contextmenu="handleContextmenu">
-    <context-menu :show.sync="show" :menus="menus" @menuItemClick="handleMenuItemClick" :offset="contextMenuOffset">
+    <context-menu v-model:show="show" :menus="menus" @menuItemClick="handleMenuItemClick" :offset="contextMenuOffset">
       <template #create="menu">
         <div class="content">
           222{{menu.label}}
@@ -82,14 +82,15 @@ export default {
 };
 </script>
 
-<style lang="less" scoped>
+<style scoped>
 .content{
   padding: 2px 7px;
   user-select: none;
-  &:hover {
-    color: #fff;
-    background: #1890ff;
-  }
+  
+}
+.content:hover {
+  color: #fff;
+  background: #1890ff;
 }
 </style>
 ```

@@ -12,6 +12,11 @@
     "contextmenu"
   ],
   "author": "mengdaoshizhongxinyang",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mengdaoshizhongxinyang/ContextMenuVue"
+  },
+  "homepage": "https://github.com/mengdaoshizhongxinyang/ContextMenuVue#contextmenu-vue",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
