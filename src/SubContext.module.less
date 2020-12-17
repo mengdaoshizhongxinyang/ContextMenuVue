@@ -1,0 +1,29 @@
+.menu {
+  color: #000000;
+  padding: 2px;
+  position: fixed;
+  background-color: #fff;
+  min-width: 160px;
+  border: 1px solid rgba(68, 68, 68, 0.219);
+  box-shadow: 0px 0px 2px 1px rgba(20, 20, 20, 0.2);
+  &-item {
+    line-height: 22px;
+
+    &-content {
+      padding: 2px;
+      user-select: none;
+      &:hover {
+        color: #fff;
+        background: #1890ff;
+      }
+    }
+  }
+}
+.contextmenu-fade-enter-active,
+.contextmenu-fade-leave-active {
+  transition: opacity 0.1s;
+}
+.contextmenu-fade-enter,
+.contextmenu-fade-leave-to {
+  opacity: 0;
+}

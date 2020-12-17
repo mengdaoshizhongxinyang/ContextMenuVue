@@ -1,13 +1,13 @@
-# Contextmenu Vue
-contextmenu developed by vue
+# Contextmenu Vue-next
+contextmenu developed by vue3.0
 
 # install
 ```
-yarn add contextmenu-vue
+yarn add contextmenu-vue-next
 ```
 or
 ```
-npm install contextmenu-vue
+npm install contextmenu-vue-next
 ```
 
 
